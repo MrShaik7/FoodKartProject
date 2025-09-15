@@ -1,0 +1,64 @@
+.meals {
+  max-width: 60rem;
+  width: 90%;
+  margin: 2rem auto;
+  animation: meals-appear 1s ease-out forwards;
+}
+
+.meals ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  max-height: 22rem;
+  overflow: scroll;
+}
+
+.fil {
+  display: flex;
+  justify-content: space-around;
+  height: 40px;
+}
+
+.div {
+  display: flex;
+  justify-content: space-between;
+  /* padding:50px; */
+  margin-top: 20px;
+  margin-left: 200px;
+  height: 50px;
+  width: 50px;
+}
+
+.button {
+  background-color: #000000;
+  border-color: #000000;
+  color: white;
+  display: flex;
+  font-size: 30px;
+  padding: 5px;
+  padding-left: 100px;
+  padding-right: 100px;
+  border-radius: 70px 70px;
+  cursor: pointer;
+  animation: meals-appear 1s ease-out forwards;
+}
+
+.button:hover,
+.button:active {
+  color: white;
+  background-color: #1c3879;
+  border-color: #1c3879;
+  justify-content: center;
+}
+
+@keyframes meals-appear {
+  from {
+    opacity: 0;
+    transform: translateY(3rem);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

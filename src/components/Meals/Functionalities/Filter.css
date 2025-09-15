@@ -1,0 +1,13 @@
+.fil {
+  border: 3px solid #1c3879;
+  height: 30px;
+  width: 100px;
+  border-radius: 30px;
+}
+
+.div {
+  font-family: inherit;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 30px;
+}

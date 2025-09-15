@@ -1,0 +1,52 @@
+.auth {
+  font-family: inherit;
+  margin: 5rem auto;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.2);
+  width: 25rem;
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: center;
+  background-color: #1c3879d2;
+}
+
+.control {
+  margin-bottom: 0.5rem;
+}
+
+.control label {
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 23px;
+  display: block;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+
+.control input {
+  font-family: inherit;
+  display: block;
+  width: 20rem;
+  margin: auto;
+  border-radius: 4px;
+  padding: 0.25rem;
+  border: 1px solid #1c3879;
+}
+
+button {
+  font-family: inherit;
+  font: inherit;
+  cursor: pointer;
+  background-color: #1c3879;
+  border: 1px solid #1c3879;
+  color: white;
+  padding: 0.5rem 1.5rem;
+  border-radius: 6px;
+}
+
+button:hover,
+button:active {
+  color: rgb(255, 255, 255);
+  background-color: #000000;
+  border-color: #000000;
+}

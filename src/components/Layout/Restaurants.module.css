@@ -1,0 +1,62 @@
+.section {
+  max-width: 60rem;
+  width: 90%;
+  margin: 2rem auto;
+}
+
+.section h {
+  font-family: inherit;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.img {
+  height: 200px;
+  width: 200px;
+  display: inline;
+  padding: 20px;
+  margin-top: 50px;
+  margin-left: 30px;
+  transition: padding 0.3s;
+}
+
+.img:hover {
+  padding: 0px;
+  cursor: pointer;
+  border: none;
+}
+
+.section ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  max-height: 50px;
+  max-width: 10px;
+  border: none;
+  animation: button-appear 1s ease-out forwards;
+}
+
+.section button {
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+  border-color: #8a2b06;
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+  width: 250px;
+  margin-right: 100px;
+  padding: 1px;
+  justify-content: center;
+  border-radius: 70px 70px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.section button:hover,
+.section button:active {
+  background-color: #1c3879;
+  border-color: #1c3879;
+  color: #ffffff;
+}
